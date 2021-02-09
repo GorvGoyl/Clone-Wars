@@ -1,6 +1,7 @@
 theme: jekyll-theme-cayman
 plugins:
   - jekyll-relative-links
+  - jekyll-github-metadata
 relative_links:
   enabled: true
   collections: true
