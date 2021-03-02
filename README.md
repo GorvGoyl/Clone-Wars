@@ -88,7 +88,7 @@ _(scroll right on table to see all 5 columns)_
 
 ---
 
-### Support
+## Support
 
 #### ❤ Support continuous development [Buy me a Coffee](https://ko-fi.com/gorvgoyl)
 
