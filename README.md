@@ -1,8 +1,12 @@
+![clone wars](img/og.png)
+
 # Clone Wars - Open source clones of popular sites
 
 > 70+ open-source clones of popular sites like Airbnb, Amazon, Instagram, Netflix, Tiktok, Spotify, Trello, Whatsapp, Youtube etc. List contains source code, demo links, tech stack, and, github stars count.
 
 ## See full list with better view 👉 [gourav.io/clone-wars](https://gourav.io/clone-wars)
+
+---
 
 - Liked this repo? [support it ♥](#support)
 - Want to see your/their repo in list? see [contribution guide](#contribution)
