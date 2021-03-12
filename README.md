@@ -2,17 +2,13 @@
 
 # Clone Wars - Open source clones of popular sites
 
-> 70+ open-source clones of popular sites like Airbnb, Amazon, Instagram, Netflix, Tiktok, Spotify, Trello, Whatsapp, Youtube etc. List contains source code, demo links, tech stack, and, github stars count.
+> 70+ open-source clones of popular sites like Airbnb, Amazon, Instagram, Netflix, Tiktok, Spotify, Trello, Whatsapp, Youtube, etc. List contains source code, demo links, tech stack, and, GitHub stars count. Great for learning purpose!
+
+_-Made by [@GorvGoyl](https://twitter.com/GorvGoyl)_
 
 ## See full list with better view 👉 [gourav.io/clone-wars](https://gourav.io/clone-wars)
 
 ---
-
-❤ Clone Wars is live on [Product Hunt](https://www.producthunt.com/posts/clone-wars/). Check it out!
-
-<p align="center">
-<a href="https://www.producthunt.com/posts/clone-wars?utm_source=badge-featured&utm_medium=badge&utm_souce=badge-clone-wars" target="_blank"><img src="https://api.producthunt.com/widgets/embed-image/v1/featured.svg?post_id=287384&theme=dark" alt="Clone Wars - Open-source clones of sites like Airbnb, Tiktok, Netflix etc | Product Hunt"  width="250" height="54" /></a>
-</p>
 
 - Liked this repo? [support it ♥](#support)
 - Want to see your/their repo in list? see [contribution guide](#contribution)
@@ -108,11 +104,19 @@ _(scroll right on table to see all 5 columns)_
 | Workflowy                      | https://deepnotes.in/                                                                                                                  | https://github.com/mukeshsoni/deepnotes-editor                                                                         | ReactJS, DraftJS                                  | ![GitHub Repo stars](https://img.shields.io/github/stars/mukeshsoni/deepnotes-editor)                                                                                                          |
 | Youtube                        | https://utubeclone.netlify.app/ <br/> https://youtu.be/wHLurtOnmyM                                                                     | https://github.com/manikandanraji/youtubeclone-frontend <br/> https://github.com/manikandanraji/youtubeclone-backend   | React, Redux, Express, Sequelize                  | ![GitHub Repo stars](https://img.shields.io/github/stars/manikandanraji/youtubeclone-frontend) ![GitHub Repo stars](https://img.shields.io/github/stars/manikandanraji/youtubeclone-backend)   |
 
+_Some link is broken? [report it](https://github.com/GorvGoyl/Clone-Wars/issues/new)_
+
 ---
 
 ## Support
 
-#### ❤ Support continuous development [Buy me a Coffee](https://ko-fi.com/gorvgoyl)
+#### ❤ Clone Wars is live on [Product Hunt](https://www.producthunt.com/posts/clone-wars/). Check it out!
+
+<p align="center">
+<a href="https://www.producthunt.com/posts/clone-wars?utm_source=badge-featured&utm_medium=badge&utm_souce=badge-clone-wars" target="_blank"><img src="https://api.producthunt.com/widgets/embed-image/v1/featured.svg?post_id=287384&theme=dark" alt="Clone Wars - Open-source clones of sites like Airbnb, Tiktok, Netflix etc | Product Hunt"  width="250" height="54" /></a>
+</p>
+
+#### 💲 Support continuous development [Buy me a Coffee](https://ko-fi.com/gorvgoyl)
 
 <p align="center">
   <a href="https://ko-fi.com/gorvgoyl">
@@ -120,7 +124,7 @@ _(scroll right on table to see all 5 columns)_
   </a>
 </p>
 
-#### 👨‍💻 Follow the maker [@GorvGoyl](https://twitter.com/intent/follow?user_id=325435736) behind this project.
+#### 👨‍💻 Follow the maker [@GorvGoyl [Twitter]](https://twitter.com/GorvGoyl) behind this project.
 
 ---
 
