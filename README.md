@@ -4,7 +4,7 @@
 
 > 70+ open-source clones of popular sites like Airbnb, Amazon, Instagram, Netflix, Tiktok, Spotify, Trello, Whatsapp, Youtube, etc. List contains source code, demo links, tech stack, and, GitHub stars count. Great for learning purpose!
 
-_-Made by_ <a href= "https://twitter.com/GorvGoyl"> @GorvGoyl <img src="https://gourav.io/twitter.svg" style="vertical-align: middle; display:inline;" width=14 height=14 alt="@GorvGoyl on twitter"> </a>
+_-Made by_ <a href= "https://twitter.com/GorvGoyl" title="@GorvGoyl on twitter"> @GorvGoyl <img src="https://gourav.io/twitter.svg" style="vertical-align: middle; display:inline;" width=14 height=14 alt="@GorvGoyl on twitter"> </a>
 
 ## See full list with better view 👉 [gourav.io/clone-wars](https://gourav.io/clone-wars)
 
