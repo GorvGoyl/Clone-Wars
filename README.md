@@ -136,6 +136,8 @@ _Some link is broken? [report it](https://github.com/GorvGoyl/Clone-Wars/issues/
 
 2 ways to add your/their repo to the list:
 
+_(Note: project must have at least minimal functionality, please do not submit any 'UI only' clone)_
+
 1. Add your contribution to [readme.md](https://github.com/GorvGoyl/Clone-Wars/blob/main/README.md) (_you may use online md editor like [markdown.site](https://markdown.site/) for better table visualization_) and send me a PR! (_faster approval and your name would be added to project contributors_)  
    OR
 2. Create a [new issue](https://github.com/GorvGoyl/Clone-Wars/issues/new) with following details: clone name, code repo link, demo link, and tech stack used.
