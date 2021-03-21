@@ -1,0 +1,175 @@
+index.js/AWSHandlers/sendNotificationMessage
+async sendNotificationMessage(message, type, context) {
+  const params = {
+   Message: JSON.stringify({ message, type, context }),
+   TopicArn: this.topicArn(`${process.env.CUBEJS_APP || 'HExocubejs'}-process`)
+  };
+  await sns.publish(params).promise();
+ }
+origin: cube-js/cube.js
+driver/AthenaDriver.js/AthenaDriver/constructor
+constructor(config) {
+  super();
+  this.config = {
+   accessKeyId: process.env.CUBEJS_AWS_KEY,
+   secretAccessKey: process.env.CUBEJS_AWS_SECRET,
+   region: process.env.CUBEJS_AWS_REGION,
+   S3OutputLocation: process.env.CUBEJS_AWS_S3_OUTPUT_LOCATION,
+   ...config
+  };
+  this.athena = new AWS.Athena(this.config);
+  this.athena.startQueryExecutionAsync = promisify(this.athena.startQueryExecution.bind(this.athena));
+  this.athena.stopQueryExecutionAsync = promisify(this.athena.stopQueryExecution.bind(this.athena));
+  this.athena.getQueryResultsAsync = promisify(this.athena.getQueryResults.bind(this.athena));
+  this.athena.getQueryExecutionAsync = promisify(this.athena.getQueryExecution.bind(this.athena));
+ }
+origin: cube-js/cube.js
+hnCrawler.js/uploadEvents
+const uploadEvents = async (events) => {
+ const outStream = zlib.createGzip();
+ events.forEach(e => {
+  outStream.write(`${JSON.stringify(humps.decamelizeKeys(e))}\n`, 'utf8');
+ });
+ outStream.end();
+ const date = new Date().toISOString();
+ const partitionPrefix = date.substring(0, 13);
+ const fileName = `dt=${partitionPrefix}/${date}.json.gz`;
+ const params = {
+  Bucket: process.env.HN_INSIGHTS_EVENTS_BUCKET || 'hn-insights-events',
+  Key: fileName,
+  Body: outStream
+ };
+ console.log(`Uploading ${fileName}: ${events.length} events...`);
+ await s3.upload(params).promise();
+ console.log(`Uploading ${fileName} done`);
+}
+origin: axa-group/nlp.js
+engine.js/checkModel
+const description = dynamoDB.describeTable(params, function(errDesc, dataDesc) {
+  if (errDesc) {
+    console.error("THERE IS A BIG PROBLEM! SEEMS THAT THE TABLE WHICH MUST CONTAIN THE MODEL DOESN'T EXIST: ", errDesc);
+    regenerateModel(null);
+  if (dataDesc.Table.ItemCount === 0) {
+    regenerateModel(function() {
+      params.Item = { 'id': MODEL_TABLENAME_KEY, 'model': manager.export() };
+      console.debug('SAVING MODEL INTO DynamoDB TABLE: ', params);
+      documentClient.put(params, function(errPut, dataPut) {
+        if (errPut) {
+          console.error('ERROR SAVING THE GENERATED MODEL: ', errPut);
+    });
+  } else { // dataDesc.Table.ItemCount > 0
+    console.info(`THE TABLE WITH A MODEL ALREADY EXISTS. THERE IS ${dataDesc.Table.ItemCount} ITEMS`);
+    params.Key = { id: MODEL_TABLENAME_KEY };
+    documentClient.get(params, function(errGet, dataGet) {
+      if (errGet) {
+        console.error('CANNOT GET RECORDS FROM TABLE: ', errGet);
+        manager.import(dataGet.Item.model);
+      } else if (!errGet) {
+        console.error('NO-RECORD RETRIEVED FROM TABLE');
+origin: builderbook/builderbook
+server/aws.js/sendEmail
+function sendEmail(options) {
+ aws.config.update({
+  region: 'us-east-1',
+  accessKeyId: process.env.Amazon_accessKeyId,
+ });
+ const ses = new aws.SES({ apiVersion: 'latest' });
+  ses.sendEmail(
+origin: cube-js/cube.js
+driver/AthenaDriver.js/AthenaDriver/query
+ } : s))
+);
+const { QueryExecutionId } = await this.athena.startQueryExecutionAsync({
+ QueryString: queryString,
+ ResultConfiguration: {
+ const queryExecution = await this.athena.getQueryExecutionAsync({
+  QueryExecutionId
+ });
+  }, options);
+  for (
+   let results = await this.athena.getQueryResultsAsync({ QueryExecutionId });
+   results;
+   results = results.NextToken && (await this.athena.getQueryResultsAsync({
+    QueryExecutionId, NextToken: results.NextToken
+   }))
+origin: builderbook/builderbook
+server/aws.js/sendEmail
+function sendEmail(options) {
+ aws.config.update({
+  region: process.env.Amazon_region,
+  accessKeyId: process.env.Amazon_accessKeyId,
+ });
+ const ses = new aws.SES({ apiVersion: 'latest' });
+  ses.sendEmail(
+origin: builderbook/builderbook
+server/aws.js/sendEmail
+function sendEmail(options) {
+ aws.config.update({
+  region: process.env.Amazon_region,
+  accessKeyId: process.env.Amazon_accessKeyId,
+ });
+ const ses = new aws.SES({ apiVersion: 'latest' });
+  ses.sendEmail(
+origin: builderbook/builderbook
+server/aws.js/sendEmail
+function sendEmail(options) {
+ aws.config.update({
+  region: process.env.Amazon_region,
+  accessKeyId: process.env.Amazon_accessKeyId,
+ });
+ const ses = new aws.SES({ apiVersion: 'latest' });
+  ses.sendEmail(
+origin: builderbook/builderbook
+server/aws.js/sendEmail
+function sendEmail(options) {
+ aws.config.update({
+  region: process.env.Amazon_region,
+  accessKeyId: process.env.Amazon_accessKeyId,
+ });
+ const ses = new aws.SES({ apiVersion: 'latest' });
+  ses.sendEmail(
+origin: builderbook/builderbook
+server/aws.js/sendEmail
+function sendEmail(options) {
+ aws.config.update({
+  region: 'us-east-1',
+  accessKeyId: process.env.Amazon_accessKeyId,
+ });
+ const ses = new aws.SES({ apiVersion: 'latest' });
+  ses.sendEmail(
+origin: builderbook/builderbook
+server/aws.js/sendEmail
+function sendEmail(options) {
+ aws.config.update({
+  region: process.env.Amazon_region,
+  accessKeyId: process.env.Amazon_accessKeyId,
+ });
+ const ses = new aws.SES({ apiVersion: 'latest' });
+  ses.sendEmail(
+origin: builderbook/builderbook
+server/aws.js/sendEmail
+function sendEmail(options) {
+ aws.config.update({
+  region: process.env.Amazon_region,
+  accessKeyId: process.env.Amazon_accessKeyId,
+ });
+ const ses = new aws.SES({ apiVersion: 'latest' });
+  ses.sendEmail(
+origin: builderbook/builderbook
+server/aws.js/sendEmail
+function sendEmail(options) {
+ aws.config.update({
+  region: process.env.Amazon_region,
+  accessKeyId: process.env.Amazon_accessKeyId,
+ });
+ const ses = new aws.SES({ apiVersion: 'latest' });
+  ses.sendEmail(
+origin: builderbook/builderbook
+server/aws.js/sendEmail
+function sendEmail(options) {
+ aws.config.update({
+  region: process.env.Amazon_region,
+  accessKeyId: process.env.Amazon_accessKeyId,
+ });
+ const ses = new aws.SES({ apiVersion: 'latest' });
+  ses.sendEmail(

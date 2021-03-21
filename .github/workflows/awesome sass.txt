@@ -1,0 +1,46 @@
+If Rails or Rake are complaining about a missing gem that is listed in your Gemfile.lock and the listed version is properly installed, something is seriously wrong and needs to be fixed.
+If you accidently executed bundle install some_gem although you wanted bundle update some_gem
+What is wrong
+Let's say your Gemfile asks for some-gem which you can see when running gem list but bundle show some-gem just gives you an error:
+
+COPY
+Could not find gem 'some-gem', in any of the sources
+Another indicator: Doing a bundle install --local breaks and bundle install installs every gem from scratch. Don't ignore that or just go with it! Something is up.
+
+Solution
+Maybe you are using a separate Gemfile.something for some Ruby scripts that don't require the whole application setup? Take a look at your application's release directory.
+
+When you do ls -la you then probably can see a Gemfile.something and a .bundle directory. The contents of the .bundle directory redirect all gem calls to another configuration in the Gemfile.something directory, preventing your application from seeing the gems it needs.
+
+Remove those wrong and unneccesary directories and Rake and Rails will boot again.
+
+To avoid this in the future, make sure everybody installs gems on remote servers properly by using the install-gems-remotely command from our geordi gem.\
+Also, don't run bundle install as root (or sudo it), especially not in your release directory.
+
+Hint for github shorthand
+If your using something like gem 'font-awesome-sass', github: 'makandra/font-awesome-sass' and get an error Could not find gem 'font-awesome-sass', in any of the sources, specifiy the version:
+
+COPY
+gem 'font-awesome-sass', '=4.1.0', github: 'makandra/font-awesome-sass'56
+
+Ruby's yield keyword is something very different from the Python keyword with the same name, so don't be confused by it. Ruby's yield keyword is syntactic sugar for calling a block associated with a method.
+
+The closest equivalent is Ruby's Enumerator class. For example, the equivalent of the Python:
+
+def eternal_sequence():
+  i = 0
+  while True:
+    yield i
+    i += 1
+is this:
+
+def eternal_sequence
+  Enumerator.new do |enum|
+    i = 0
+    while true
+      enum.yield i # <- Notice that this is the yield method of the enumerator, not the yield keyword
+      i +=1
+    end
+  end
+end
+You can also create Enumerators for existing enumeration methods with enum_for. For example, ('a'..'z').enum_for(:each_with_index) gives you an enumerator of the lowercase letters along with their place in the alphabet. You get this for free with the standard Enumerable methods like each_with_index in 1.9, so you can just write ('a'..'z').each_with_index to get the enumerator.

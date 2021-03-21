@@ -1,0 +1,128 @@
+.. it is often a good idea to use sets or dictionaries instead of lists in cases where:
+
+The collection will contain a large number of items
+You will be repeatedly searching for items in the collection
+You do not have duplicate items.
+For a performance cheat sheet for al the main data types refer to TimeComplexity. For a nice, accessible and visual book on algorithms see here.
+
+Update: in the first iteration of this article I did a 'value in set(list)' but this is actually expensive because you have to do the list-to-set cast. The suggested set(a) & set(b) instead of double-for-loop has this same problem. Thanks for pointing this out on Reddit. There were some more comments there which I will update in this article for completeness and correctness.
+
+2. Reduce memory footprint
+msg = 'line1\n'
+msg += 'line2\n'
+msg += 'line3\n'
+This is inefficient because a new string gets created upon each pass. Use a list and join it together:
+
+msg = ['line1', 'line2', 'line3']
+'\n'.join(msg)
+Similarly avoid the + operator on strings:
+
+# slow
+msg = 'hello ' + my_var + ' world'
+
+# faster
+msg = 'hello %s world' % my_var
+
+# or better:
+msg = 'hello {} world'.format(my_var)
+Update 03/03/2020: cleanest are f-strings:
+
+msg = f'hello {my_var} world'
+They also are fast!
+
+Pythonic code is not only more readable but also faster, another example: 'if variable:' is faster than the un-idiomatic 'if variable == True:'
+
+Other memory saving techniques:
+
+probably best known are generators which result in the lazy (on demand) generation of values, which translates to lower memory usage. Good news is that in Python 3 range, d.items() etc return generators (in Python 2 use xrange, d.iteritems() respectively). Another good reason to switch to Python 3 :)
+
+list.sort() is in place vs sorted() which makes a copy. Honestly I have mostly used latter, but it might matter if your data set grows.
+
+__slots__: 'the __slots__ declaration takes a sequence of instance variables and reserves just enough space in each instance to hold a value for each variable. Space is saved because __dict__ is not created for each instance', so this is really useful if you have a lot of instances (here is a real-world example).
+
+3. Use builtin functions and libraries
+Builtin functions like sum, max, any, map, etc are implemented in C. They are very efficient and well tested. Use them!
+
+Example borrowed from this great wiki:
+
+newlist = []
+for word in oldlist:
+    newlist.append(word.upper())
+Better:
+
+newlist = map(str.upper, oldlist)  # wiki cites map as a for loop moved into C code
+For readability I much prefer a list comprehension though. And as another redditor commented a list comprehension is just as fast as list(map(x)) and a generator comprehension is just as fast as map(x).
+
+Guido's Python Patterns - An Optimization Anecdote is a great read:
+
+If you feel the need for speed, go for built-in functions - you can't beat a loop written in C. Check the library manual for a built-in function that does what you want.
+
+Another example of using builtins is the collections module which offers Pythonic and efficient data structures (deque, defaultdict, Counter, etc):
+
+For example defaultdict ('list as the default_factory' example from documentation):
+
+>>> s = [('yellow', 1), ('blue', 2), ('yellow', 3), ('blue', 4), ('red', 1)]
+>>> d = defaultdict(list)
+>>> for k, v in s:
+...     d[k].append(v)
+Or use Counter, just one line of code:
+
+>>> Counter('mississippi')
+Counter({'i': 4, 's': 4, 'p': 2, 'm': 1})
+As Jack Diederich says in this great talk :)
+
+I hate code and I want as little of it as possible in our product.
+
+4. Move calculations outside the loop
+If you have a big iterator and you need to do some regex matching, for example match a date:
+
+for i in big_it:
+    m = re.search(r'\d{2}-\d{2}-\d{4}', i)
+    if m:
+        ...
+Better to compile the regex once and use that 'cached' version in the loop:
+
+date_regex = re.compile(r'\d{2}-\d{2}-\d{4}')
+
+for i in big_it:
+    m = date_regex.search(i)
+    if m:
+        ...
+Update: another redditor commented: "it's by the mercy of the interpreter's implementation, most (including the common CPython) have their own cache for a certain number of regexes, so it probably wouldn't cause any extra time.".
+
+More generically evaluate as much as possible outside the loop!
+
+Another trick is to asign a function (calculation) to a local variable:
+
+Python accesses local variables much more efficiently than global variables. (source)
+
+myfunc = myObj.func
+fcor i in range(n):
+    myfunc(i) # faster than myObj.func(i)
+On the subject of caching, for memoization (an optimization technique used primarily to speed up computer programs by storing the results of expensive function calls and returning the cached result when the same inputs occur again) you can use the functools.lru_cache decorator. LRU = Least Recently Used and a good use case is fetching data from the web (the docs page has an example of LRU cache for static web content).
+
+5. Keep your code base small
+Common sense but still: be conscious what you put in the module vs main level (latter being below the __main__ statement). When you import a module potentially a lot of code runs and can slow down your program!
+
+Reduce the amounts of if/elif/and/or. An interesting example I learned from this great talk: the ask forgiveness code style might run faster because it eliminates the need for the if check.
+
+Update: on the mentioned Reddit thread we got some feedback on try/except vs 'if os.path.isfile', latter might actually be better.
+
+How to spot performance issues?
+Humans are pretty bad at guessing, I can tell ... once I wanted to optimize a Python script I built that did heavy text parsing but took a bit of time. Profiling the code it was caused by a different part than I had intuitively thought!
+
+You can use a profiler, for example:
+
+python -m cProfile [-o output_file] [-s sort_order] myscript.py
+To time your code, see this SO thread.
+
+Resources
+Again Guido's Python Patterns - An Optimization Anecdote is a great read.
+
+Reference: Performance tips wiki.
+
+TimeComplexity reference.
+
+Mentioned talk Writing faster Python by Sebastian Witowski.
+
+Book on the subject: High Performance Python: Practical Performant Programming for Humans.
