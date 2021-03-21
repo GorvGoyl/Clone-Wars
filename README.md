@@ -76,6 +76,7 @@ _(scroll right on table to see all 5 columns)_
 | Netflix                        | https://expo-netflix.calebnance.now.sh/                                                                                | https://github.com/calebnance/expo-netflix                                                                             | React Native, expo                                     | ![GitHub Repo stars](https://img.shields.io/github/stars/calebnance/expo-netflix)                                                                                                              |
 | Netflix                        | https://roseflix-rosebilag.vercel.app/                                                                                 | https://github.com/rosebilag/roseflix/                                                                                 | React, TypeScript, MongoDB                             | ![GitHub Repo stars](https://img.shields.io/github/stars/rosebilag/roseflix)                                                                                                                   |
 | Nike                           | https://github.com/saeed9321/Nike-Website-clone/blob/main/screen-capture.gif                                           | https://github.com/saeed9321/Nike-Website-clone                                                                        | Express, MongoDB                                       | ![GitHub Repo stars](https://img.shields.io/github/stars/saeed9321/Nike-Website-clone)                                                                                                         |
+| Notion                         | https://www.focalboard.com/                                                                                            | https://github.com/mattermost/focalboard                                                                               | Node, React, Go                                        | ![GitHub Repo stars](https://img.shields.io/github/stars/mattermost/focalboard)                                                                                                                |
 | Omegle                         | https://start-a-conversation.firebaseapp.com/                                                                          | https://github.com/NickMandylas/start-a-conversation                                                                   | React, Firebase, Twilio                                | ![GitHub Repo stars](https://img.shields.io/github/stars/NickMandylas/start-a-conversation)                                                                                                    |
 | Orkut                          | https://orkutnostalgia.netlify.app/                                                                                    | https://github.com/GShadowBroker/orkut-clone-client <br/> https://github.com/GShadowBroker/orkut-clone-server          | ReactJS, GraphQL, Apollo, PostgreSQL                   | ![GitHub Repo stars](https://img.shields.io/github/stars/GShadowBroker/orkut-clone-client) ![GitHub Repo stars](https://img.shields.io/github/stars/GShadowBroker/orkut-clone-server)          |
 | PayTM                          | https://github.com/flutter-devs/flutter_paytm_clone#demo                                                               | https://github.com/flutter-devs/flutter_paytm_clone                                                                    | Flutter                                                | ![GitHub Repo stars](https://img.shields.io/github/stars/flutter-devs/flutter_paytm_clone)                                                                                                     |
@@ -141,10 +142,12 @@ _Some link is broken or clone is not good enough? [report it](https://github.com
 
 ## Support
 
-#### ❤ Clone Wars is live on [Product Hunt](https://www.producthunt.com/posts/clone-wars/). Check it out!
+#### ❤ Follow the maker [@GorvGoyl](https://twitter.com/GorvGoyl) behind this project.
 
 <p align="center">
-<a href="https://www.producthunt.com/posts/clone-wars?utm_source=badge-featured&utm_medium=badge&utm_souce=badge-clone-wars" target="_blank"><img src="https://api.producthunt.com/widgets/embed-image/v1/featured.svg?post_id=287384&theme=dark" alt="Clone Wars - Open-source clones of sites like Airbnb, Tiktok, Netflix etc | Product Hunt"  width="250" height="54" /></a>
+  <a href="https://twitter.com/GorvGoyl">
+  <img src="https://img.shields.io/badge/@GorvGoyl-1da1f2?style=for-the-badge&labelColor=1da1f2&color=1da1f2&logo=twitter&logoColor=white&label=Follow" alt="Follow on Twitter"/>
+  </a>
 </p>
 
 #### 💲 Support continuous development [Buy me a Coffee](https://ko-fi.com/gorvgoyl)
@@ -154,8 +157,6 @@ _Some link is broken or clone is not good enough? [report it](https://github.com
   <img src="https://github.com/GorvGoyl/Notion-Boost-browser-extension/raw/master/src/images/readme/bmc.png" width="200" alt="Buy me a Coffee"/>
   </a>
 </p>
-
-#### 👨‍💻 Follow the maker [@GorvGoyl [Twitter]](https://twitter.com/GorvGoyl) behind this project.
 
 ---
 
