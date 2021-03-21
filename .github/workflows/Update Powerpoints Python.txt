@@ -1,0 +1,147 @@
+python-pptx
+Release v0.9.18 (Installation)
+
+https://travis-ci.org/scanny/python-pptx.svg?branch=master
+python-pptx is a Python library for creating and updating PowerPoint (.pptx) files.
+
+A typical use would be generating a customized PowerPoint presentation from database content, downloadable by clicking a link in a web application. Several developers have used it to automate production of presentation-ready engineering status reports based on information held in their work management system. It could also be used for making bulk updates to a library of presentations or simply to automate the production of a slide or two that would be tedious to get right by hand.
+
+More information is available in the python-pptx documentation.
+
+Browse examples with screenshots to get a quick idea what you can do with python-pptx.
+
+Feature Support
+python-pptx has the following capabilities, with many more on the roadmap:
+
+Round-trip any Open XML presentation (.pptx file) including all its elements
+Add slides
+Populate text placeholders, for example to create a bullet slide
+Add image to slide at arbitrary position and size
+Add textbox to a slide; manipulate text font size and bold
+Add table to a slide
+Add auto shapes (e.g. polygons, flowchart shapes, etc.) to a slide
+Add and manipulate column, bar, line, and pie charts
+Access and change core document properties such as title and subject
+Additional capabilities are actively being developed and added on a release cadence of roughly once per month. If you find a feature you need that python-pptx doesn’t yet have, reach out via the mailing list or issue tracker and we’ll see if we can jump the queue for you to pop it in there :)
+
+User Guide
+Introduction
+Installing
+Getting Started
+Working with Presentations
+Working with Slides
+Understanding Shapes
+Working with AutoShapes
+Understanding placeholders
+Working with placeholders
+Working with text
+Working with charts
+Working with tables
+Working with Notes Slides
+Use cases
+Concepts
+Community Guide
+Frequently Asked Questions
+Support
+Software Updates
+API Documentation
+Presentations
+Presentation function
+Presentation objects
+CoreProperties objects
+Slides
+Slides objects
+Slide objects
+SlideLayouts objects
+SlideLayout objects
+SlideMasters objects
+SlideMaster objects
+SlidePlaceholders objects
+NotesSlide objects
+Shapes
+SlideShapes objects
+GroupShapes objects
+Shape objects in general
+Shape objects (AutoShapes)
+Connector objects
+FreeformBuilder objects
+Picture objects
+GraphicFrame objects
+GroupShape objects
+Placeholders
+MasterPlaceholder objects
+LayoutPlaceholder objects
+ChartPlaceholder objects
+PicturePlaceholder objects
+TablePlaceholder objects
+PlaceholderGraphicFrame objects
+PlaceholderPicture objects
+_PlaceholderFormat objects
+Table-related objects
+Table objects
+_Column objects
+_Row objects
+_Cell objects
+ChartData objects
+Charts
+Chart objects
+Legend objects
+Axis objects
+MajorGridlines objects
+TickLabels objects
+_BasePlot objects
+DataLabels objects
+Series objects
+Point objects
+Text-related objects
+TextFrame objects
+Font objects
+_Paragraph objects
+_Run objects
+Click Action-related Objects
+ActionSetting objects
+Hyperlink objects
+DrawingML objects
+ChartFormat objects
+FillFormat objects
+LineFormat objects
+ColorFormat objects
+RGBColor objects
+ShadowFormat objects
+Image
+Image objects
+Exceptions
+util Module
+Enumerations
+MSO_AUTO_SHAPE_TYPE
+MSO_AUTO_SIZE
+MSO_COLOR_TYPE
+MSO_CONNECTOR_TYPE
+MSO_FILL_TYPE
+MSO_LANGUAGE_ID
+MSO_LINE_DASH_STYLE
+MSO_PATTERN_TYPE
+MSO_SHAPE_TYPE
+MSO_TEXT_UNDERLINE_TYPE
+MSO_THEME_COLOR_INDEX
+MSO_VERTICAL_ANCHOR
+PP_ACTION_TYPE
+PP_MEDIA_TYPE
+PP_PARAGRAPH_ALIGNMENT
+PP_PLACEHOLDER_TYPE
+XL_AXIS_CROSSES
+XL_CATEGORY_TYPE
+XL_CHART_TYPE
+XL_DATA_LABEL_POSITION
+XL_LEGEND_POSITION
+XL_MARKER_STYLE
+XL_TICK_LABEL_POSITION
+XL_TICK_MARK
+Excel Number Formats
+Contributor Guide
+Running the test suite
+Understanding xmlchemy
+Development Practices
+Vision
+Analysis
+Resources

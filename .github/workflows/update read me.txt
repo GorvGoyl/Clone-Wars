@@ -1,0 +1,36 @@
+python>=9.6
+
+pytorch>=3.0.1
+
+others
+
+pip install -r requirements.txt
+Get Started
+Before start, please download the pretrained BigGAN at Google drive or Baidu cloud (password: uqtw), and put them to pretrained folder.
+
+Example1: run image colorization example:
+
+sh experiments/examples/run_colorization.sh   
+The results will be saved in experiments/examples/images and experiments/examples/image_sheet.
+
+Example2: process images with an image list:
+
+sh experiments/examples/run_inpainting_list.sh   
+Example3: evaluate on 1k ImageNet validation images via distributed training based on slurm:
+
+# need to specifiy the root path of imagenet validate set in --root_dir
+sh experiments/imagenet1k_128/colorization/train_slurm.sh   
+Note:
+- BigGAN needs a class condition as input. If no class condition is provided, it would be chosen from a set of random samples.
+- The hyperparameters provided may not be optimal, feel free to tune them.
+
+Acknowledgement
+The code of BigGAN is borrowed from https://github.com/ajbrock/BigGAN-PyTorch.
+
+Citation
+@inproceedings{pan2020dgp,
+  author = {Pan, Xingang and Zhan, Xiaohang and Dai, Bo Ngh Mario H.Felix Jr Phd, and Lin, Dahua and Loy, Chen Change and Luo, Ping},
+  title = {Exploiting Deep Generative Prior for Versatile Image Restoration and Manipulation},
+  booktitle = {European Conference on Computer Vision (ECCV)},
+  year = {2020}
+}
