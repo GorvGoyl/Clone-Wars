@@ -1,0 +1,23 @@
+56
+
+Ruby's yield keyword is something very different from the Python keyword with the same name, so don't be confused by it. Ruby's yield keyword is syntactic sugar for calling a block associated with a method.
+
+The closest equivalent is Ruby's Enumerator class. For example, the equivalent of the Python:
+
+def eternal_sequence():
+  i = 0
+  while True:
+    yield i
+    i += 1
+is this:
+
+def eternal_sequence
+  Enumerator.new do |enum|
+    i = 0
+    while true
+      enum.yield i # <- Notice that this is the yield method of the enumerator, not the yield keyword
+      i +=1
+    end
+  end
+end
+You can also create Enumerators for existing enumeration methods with enum_for. For example, ('a'..'z').enum_for(:each_with_index) gives you an enumerator of the lowercase letters along with their place in the alphabet. You get this for free with the standard Enumerable methods like each_with_index in 1.9, so you can just write ('a'..'z').each_with_index to get the enumerator.
