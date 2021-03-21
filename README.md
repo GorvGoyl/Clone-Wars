@@ -2,15 +2,26 @@
 
 # Clone Wars - Open source clones of popular sites
 
-> 70+ open-source clones of popular sites like Airbnb, Amazon, Instagram, Netflix, Tiktok, Spotify, Trello, Whatsapp, Youtube, etc. List contains source code, demo links, tech stack, and, GitHub stars count. Great for learning purpose!
+> 100+ open-source clones of popular sites like Airbnb, Amazon, Instagram, Netflix, Tiktok, Spotify, Trello, Whatsapp, Youtube, etc. List contains source code, demo links, tech stack, and, GitHub stars count. Great for learning purpose!
 
 _-Made by_ <a href= "https://twitter.com/GorvGoyl" title="@GorvGoyl on twitter"> @GorvGoyl <img src="https://gourav.io/twitter.svg" style="vertical-align: middle;  width: 14px; height: 14px;" width="14" height="14" alt="@GorvGoyl on twitter"> </a>
+
+<p align="center">
+  <a href="https://twitter.com/GorvGoyl">
+  <img src="https://img.shields.io/badge/@GorvGoyl-1da1f2?style=for-the-badge&labelColor=1da1f2&color=1da1f2&logo=twitter&logoColor=white&label=Follow" alt="Follow on Twitter"/>
+  </a>
+</p>
+
+<p align="center">
+  <a href="https://ko-fi.com/gorvgoyl">
+  <img src="https://github.com/GorvGoyl/Notion-Boost-browser-extension/raw/master/src/images/readme/bmc.png" width="200" alt="Buy me a Coffee"/>
+  </a>
+</p>
 
 ## See full list with better view 👉 [gourav.io/clone-wars](https://gourav.io/clone-wars)
 
 ---
 
-- Liked this repo? [support it ♥](#support)
 - Want to see your/their repo in list? see [contribution guide](#contribution)
 
 _(scroll right on table to see all 5 columns)_
@@ -121,6 +132,7 @@ _(scroll right on table to see all 5 columns)_
 | Twitter                        | https://twitterclone2.netlify.app/login.html                                                                           | https://github.com/Dunebook/Twitterclone                                                                               | HTML, CSS, JQuery                                      | ![GitHub Repo stars](https://img.shields.io/github/stars/Dunebook/Twitterclone)                                                                                                                |
 | Twitter                        | https://tclone.netlify.app/ <br/> https://github.com/muzam1l/tclone/raw/master/docs/tclone-demo2.gif                   | https://github.com/muzam1l/tclone <br/> https://github.com/muzam1l/tclone-api                                          | MERN                                                   | ![GitHub Repo stars](https://img.shields.io/github/stars/muzam1l/tclone) ![GitHub Repo stars](https://img.shields.io/github/stars/muzam1l/tclone-api)                                          |
 | Twitter                        | https://twitterapp-clone.netlify.app/home                                                                              | https://github.com/Ali-hd/Twitter-Clone <br/> https://github.com/Ali-hd/TwitterClone-Backend                           | React, express, mongo, aws, socket.io                  | ![GitHub Repo stars](https://img.shields.io/github/stars/Ali-hd/Twitter-Clone) ![GitHub Repo stars](https://img.shields.io/github/stars/Ali-hd/TwitterClone-Backend)                           |
+| Twitter                        | https://twitter-cln.herokuapp.com                                                                                      | https://github.com/Abdullah-V/MEVN-stack-twitter-clone                                                                 | Vue, Express, Mongo                                    | ![GitHub Repo stars](https://img.shields.io/github/stars/Abdullah-V/MEVN-stack-twitter-clone)                                                                                                  |
 | Typeform / Google Form         | https://ohmyform.com/                                                                                                  | https://github.com/ohmyform/ohmyform                                                                                   | Python                                                 | ![GitHub Repo stars](https://img.shields.io/github/stars/ohmyform/ohmyform)                                                                                                                    |
 | Typeform                       | https://supereasyforms.com/                                                                                            | https://github.com/super-easy-forms/super-easy-forms                                                                   | Javascript                                             | ![GitHub Repo stars](https://img.shields.io/github/stars/super-easy-forms/super-easy-forms)                                                                                                    |
 | Uber                           | https://github.com/calebnance/expo-uber/blob/master/screenshots/screenshare-3.png?raw=true                             | https://github.com/calebnance/expo-uber                                                                                | React native, expo                                     | ![GitHub Repo stars](https://img.shields.io/github/stars/calebnance/expo-uber)                                                                                                                 |
@@ -137,26 +149,6 @@ _(scroll right on table to see all 5 columns)_
 | Zapier                         | https://vimeo.com/61976251                                                                                             | https://github.com/huginn/huginn                                                                                       | Ruby                                                   | ![GitHub Repo stars](https://img.shields.io/github/stars/huginn/huginn)                                                                                                                        |
 
 _Some link is broken or clone is not good enough? [report it](https://github.com/GorvGoyl/Clone-Wars/issues/new)_
-
----
-
-## Support
-
-#### ❤ Follow the maker [@GorvGoyl](https://twitter.com/GorvGoyl) behind this project.
-
-<p align="center">
-  <a href="https://twitter.com/GorvGoyl">
-  <img src="https://img.shields.io/badge/@GorvGoyl-1da1f2?style=for-the-badge&labelColor=1da1f2&color=1da1f2&logo=twitter&logoColor=white&label=Follow" alt="Follow on Twitter"/>
-  </a>
-</p>
-
-#### 💲 Support continuous development [Buy me a Coffee](https://ko-fi.com/gorvgoyl)
-
-<p align="center">
-  <a href="https://ko-fi.com/gorvgoyl">
-  <img src="https://github.com/GorvGoyl/Notion-Boost-browser-extension/raw/master/src/images/readme/bmc.png" width="200" alt="Buy me a Coffee"/>
-  </a>
-</p>
 
 ---
 
