@@ -26,7 +26,7 @@ _-Made by_ <a href= "https://twitter.com/GorvGoyl" title="@GorvGoyl on twitter">
 
 > Note: There are 2 kinds of projects on the list. The first ones look quite similar (UI-wise) but aren't fully-functional and the other ones which are fully-functional but UI is different.
 >
-> Also, [read the story](https://gourav.io/blog/my-simple-github-project-went-viral#naming-the-repo) behind project name "Clone Wars".
+> Also, [read the story](https://gourav.io/blog/my-simple-github-project-went-viral#naming-the-project) behind project name "Clone Wars".
 
 _(scroll right on table to see all 5 columns)_
 
