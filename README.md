@@ -131,6 +131,19 @@ _Some link is broken or clone is not good enough? [report it](https://github.com
 
 ---
 
+## Clones with Tutorials
+
+| Clone of   | Demo | Article | Tutorial | Repo | Tech Stack | Repo Stars |
+|------------|------|---------|----------|------|------------|------------|
+| WhatsApp   | [Demo Link]() | [Article Link](https://www.freecodecamp.org/news/native-android-app-tutorial-whatsapp-clone/) | [Tutorial Link](https://www.youtube.com/watch?v=988UZFB0heA&ab_channel=freeCodeCamp.org) | [Repo Link](https://github.com/SimCoderYoutube/WhatsAppClone)|Android Studio, Firebase | ![GitHub Repo stars](https://img.shields.io/github/stars/SimCoderYoutube/WhatsAppClone)|
+| Instagram  | [Demo Link]() | [Article Link](https://www.freecodecamp.org/news/build-an-instagram-clone-with-react-native-firebase-firestore-redux-and-expo/) | [Tutorial Link](https://www.youtube.com/watch?v=1hPgQWbWmEk&ab_channel=freeCodeCamp.org) | [Repo Link](https://github.com/SimCoderYoutube/InstagramClone)| React Native, Firebase Firestore, Firebase storage, Redux, Expo | ![GitHub Repo stars](https://img.shields.io/github/stars/SimCoderYoutube/InstagramClone)|
+| YouTube    | [Demo Link]() | [Article Link](https://www.freecodecamp.org/news/learn-how-to-use-the-yii2-php-framework-to-create-a-youtube-clone/) | [Tutorial Link](https://www.youtube.com/watch?v=whuIf33v2Ug&ab_channel=freeCodeCamp.org) | [Repo Link](https://github.com/thecodeholic/Yii2-Youtube-Clone)| Yii2 PHP Framework | ![GitHub Repo stars](https://img.shields.io/github/stars/thecodeholic/Yii2-Youtube-Clone)|
+| Twitter    | [Demo Link]() | [Article Link](https://www.freecodecamp.org/news/create-a-cross-platform-twitter-clone-with-vue-js/) | [Tutorial Link](https://www.youtube.com/watch?v=la-0ulfn0_M&ab_channel=freeCodeCamp.org) | [Repo Link](https://github.com/dannyconnell/qwitter)| Vue.js, Quasar Framework, Firebase | ![GitHub Repo stars](https://img.shields.io/github/stars/dannyconnell/qwitter)|
+| Todoist    | [Demo Link](https://raw.githubusercontent.com/karlhadwen/todoist/master/todoist-preview.png) | [Article Link](https://www.freecodecamp.org/news/react-firebase-todoist-clone/) | [Tutorial Link](https://www.youtube.com/watch?v=hT3j87FMR6M&ab_channel=freeCodeCamp.org) | [Repo Link](https://github.com/karlhadwen/todoist)| React, Firebase, React, SCSS, BEM naming methodology | ![GitHub Repo stars](https://img.shields.io/github/stars/karlhadwen/todoist)|
+| Moodle     | [Demo Link]() | [Article Link](https://www.freecodecamp.org/news/django-rest-framework-react-tutorial/) | [Tutorial Link](https://www.youtube.com/watch?v=JIFqqdRxmVo&ab_channel=freeCodeCamp.org) | [Repo Link](https://github.com/justdjango/teach-me-django)| React, Django Rest Framework| ![GitHub Repo stars](https://img.shields.io/github/stars/justdjango/teach-me-django)|
+
+---
+
 ## Contribution
 
 2 ways to add your/their repo to the list:
