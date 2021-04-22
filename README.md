@@ -195,35 +195,35 @@ _Some link is broken or clone is not good enough? [report it](https://github.com
     <tbody>
 	      <tr>
             <td>WhatsApp</td>
-            <td><a href="https://github.com/dimi-fn/Clone-Wars/blob/main/img/whatsapp_clone_course.PNG" >Demo Link</a></td>
+            <td><a href="https://www.youtube.com/watch?v=988UZFB0heA&t=18004s&ab_channel=freeCodeCamp.org&t=5h04s" >Demo Link</a></td>
             <td><a href="https://www.freecodecamp.org/news/native-android-app-tutorial-whatsapp-clone/">Link</a></td>
             <td><a href="https://github.com/SimCoderYoutube/WhatsAppClone">Repo Link</a></td>
             <td>Android Studio, Firebase</td>
         </tr>
         <tr>
             <td>Instagram</td>
-            <td><a href="https://github.com/dimi-fn/Clone-Wars/blob/main/img/instagram_tutorial_demo.PNG" >Demo Link</a></td>
+            <td><a href="https://www.youtube.com/watch?v=1hPgQWbWmEk&ab_channel=freeCodeCamp.org&t=5h2902s" >Demo Link</a></td>
             <td><a href="https://www.freecodecamp.org/news/build-an-instagram-clone-with-react-native-firebase-firestore-redux-and-expo/">Link</a></td>
             <td><a href="https://github.com/SimCoderYoutube/InstagramClone">Repo Link</a></td>
             <td>React Native, Firebase Firestore, Firebase storage, Redux, Expo</td>
         </tr>
         <tr>
             <td>YouTube</td>
-            <td><a href="https://github.com/dimi-fn/Clone-Wars/blob/main/img/youtube_tutorial_demo.PNG" >Demo Link</a></td>
+            <td><a href="https://www.youtube.com/watch?v=whuIf33v2Ug&ab_channel=freeCodeCamp.org&t=189s" >Demo Link</a></td>
             <td><a href="https://www.freecodecamp.org/news/learn-how-to-use-the-yii2-php-framework-to-create-a-youtube-clone/">Link</a></td>
             <td><a href="https://github.com/thecodeholic/Yii2-Youtube-Clone">Repo Link</a></td>
             <td>Yii2 PHP Framework</td>
         </tr>
         <tr>
             <td>Twitter</td>
-            <td><a href="https://github.com/dimi-fn/Clone-Wars/blob/main/img/twitter_tutorial_demo.PNG" >Demo Link</a></td>
+            <td><a href="https://www.youtube.com/watch?v=la-0ulfn0_M&ab_channel=freeCodeCamp.org&t=2h1662s" >Demo Link</a></td>
             <td><a href="https://www.freecodecamp.org/news/create-a-cross-platform-twitter-clone-with-vue-js/">Link</a></td>
             <td><a href="https://github.com/dannyconnell/qwitter">Repo Link</a></td>
             <td>Vue.js, Quasar Framework, Firebase</td>
         </tr>
         <tr>
             <td>Todoist</td>
-            <td><a href="https://raw.githubusercontent.com/karlhadwen/todoist/master/todoist-preview.png" >Demo Link</a></td>
+            <td><a href="https://www.youtube.com/watch?v=hT3j87FMR6M&ab_channel=freeCodeCamp.org&t=147s" >Demo Link</a></td>
             <td><a href="https://www.freecodecamp.org/news/react-firebase-todoist-clone/">Link</a></td>
             <td><a href="https://github.com/karlhadwen/todoist">Repo Link</a></td>
             <td>React, Firebase, React, SCSS, BEM naming methodology</td>
