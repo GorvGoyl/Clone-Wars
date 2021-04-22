@@ -193,7 +193,7 @@ _Some link is broken or clone is not good enough? [report it](https://github.com
         </tr>
     </thead>
     <tbody>
-	      <tr>
+	    <tr>
             <td>WhatsApp</td>
             <td><a href="https://www.youtube.com/watch?v=988UZFB0heA&t=5h274s" >Demo Link</a></td>
             <td><a href="https://www.freecodecamp.org/news/native-android-app-tutorial-whatsapp-clone/">Link</a></td>
