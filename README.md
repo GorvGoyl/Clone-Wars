@@ -2,7 +2,7 @@
 
 # Clone Wars - Open source clones of popular sites
 
-> 100+ open-source clones of popular sites like Airbnb, Amazon, Instagram, Netflix, Tiktok, Spotify, Trello, Whatsapp, Youtube, etc. List contains source code, demo links, tech stack, and GitHub stars count. Great for learning purpose!
+> 100+ open-source clones and alternatives of popular sites like Airbnb, Amazon, Instagram, Netflix, Tiktok, Spotify, Whatsapp, Youtube, etc. List contains source code, tutorials, demo links, tech stack, and GitHub stars count. Great for learning purpose!
 
 _-Made by_ <a href= "https://twitter.com/GorvGoyl" title="@GorvGoyl on twitter"> @GorvGoyl <img src="https://gourav.io/twitter.svg" style="vertical-align: middle;  width: 14px; height: 14px;" width="14" height="14" alt="@GorvGoyl on twitter"> </a>
 
@@ -18,15 +18,42 @@ _-Made by_ <a href= "https://twitter.com/GorvGoyl" title="@GorvGoyl on twitter">
   </a>
 </p>
 
-## See full list with better view 👉 [gourav.io/clone-wars](https://gourav.io/clone-wars)
+## See full tables with better view 👉 [gourav.io/clone-wars](https://gourav.io/clone-wars)
 
 ---
 
-- Want to see your/their repo in list? see [contribution guide](#contribution)
+Want to see your/their repo in list? see [contribution guide](#contribution).
 
-> Note: There are 2 kinds of projects on the list. The first ones look quite similar (UI-wise) but aren't fully-functional and the other ones which are fully-functional but UI is different.
->
-> Also, [read the story](https://gourav.io/blog/my-simple-github-project-went-viral#naming-the-project) behind project name "Clone Wars".
+### There are 2 tables:
+
+1. [Clones with Tutorials Table](#clones-with-tutorials)
+
+   Full-stack clones with link to free tutorials.
+
+2. [Clones / Alternatives Table](#clones-and-alternatives)
+
+   Two kinds of projects on this list:
+
+   1. Clones: look quite similar (UI-wise) but aren't fully-functional, mostly made for learning purpose.
+   2. Alternatives: fully-functional open-source alternatives of popular software.  
+      Seeing Github stars will give you a rough idea about which one is which.
+
+> [read the story](https://gourav.io/blog/my-simple-github-project-went-viral#naming-the-project) behind project name "Clone Wars".
+
+## Clones with Tutorials
+
+| Clone of  | Demo                                                                                                   | Tutorial / Course                                                                                                               | Repo                                                         | Tech Stack                                                      |
+| --------- | ------------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------ | --------------------------------------------------------------- |
+| Instagram | [Youtube](https://www.youtube.com/watch?v=1hPgQWbWmEk&t=5h2902s)                                       | [Freecodecamp](https://www.freecodecamp.org/news/build-an-instagram-clone-with-react-native-firebase-firestore-redux-and-expo/) | [Github](https://github.com/SimCoderYoutube/InstagramClone)  | React Native, Firebase Firestore, Firebase storage, Redux, Expo |
+| Moodle    | [Youtube](https://www.youtube.com/watch?v=JIFqqdRxmVo&t=45s)                                           | [Freecodecamp](https://www.freecodecamp.org/news/django-rest-framework-react-tutorial/)                                         | [Github](https://github.com/justdjango/teach-me-django)      | React, Django Rest Framework                                    |
+| Todoist   | [todoist-preview.png](https://raw.githubusercontent.com/karlhadwen/todoist/master/todoist-preview.png) | [Freecodecamp](https://www.freecodecamp.org/news/react-firebase-todoist-clone/)                                                 | [Github](https://github.com/karlhadwen/todoist)              | React, Firebase, React, SCSS, BEM naming methodology            |
+| Twitter   | [Youtube](https://www.youtube.com/watch?v=la-0ulfn0_M&t=8864s)                                         | [Freecodecamp](https://www.freecodecamp.org/news/create-a-cross-platform-twitter-clone-with-vue-js/)                            | [Github](https://github.com/dannyconnell/qwitter)            | Vue.js, Quasar Framework, Firebase                              |
+| WhatsApp  | [Youtube](https://www.youtube.com/watch?v=988UZFB0heA&t=5h274s)                                        | [Freecodecamp](https://www.freecodecamp.org/news/native-android-app-tutorial-whatsapp-clone/)                                   | [Github](https://github.com/SimCoderYoutube/WhatsAppClone)   | Android Studio, Firebase, Genymotion                            |
+| YouTube   | [Youtube](https://www.youtube.com/watch?v=whuIf33v2Ug&t=189s)                                          | [Freecodecamp](https://www.freecodecamp.org/news/learn-how-to-use-the-yii2-php-framework-to-create-a-youtube-clone/)            | [Github](https://github.com/thecodeholic/Yii2-Youtube-Clone) | Yii2 PHP Framework                                              |
+
+---
+
+## Clones and Alternatives
 
 _(scroll right on table to see all 5 columns)_
 
@@ -182,29 +209,12 @@ _Some link is broken or clone is not good enough? [report it](https://github.com
 
 ---
 
-## Clones with Tutorials
-
-| Clone of  | Demo                                                                                                   | Tutorial / Course                                                                                                               | Repo                                                         | Tech Stack                                                      |
-| --------- | ------------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------ | --------------------------------------------------------------- |
-| Instagram | [Youtube](https://www.youtube.com/watch?v=1hPgQWbWmEk&t=5h2902s)                                       | [Freecodecamp](https://www.freecodecamp.org/news/build-an-instagram-clone-with-react-native-firebase-firestore-redux-and-expo/) | [Github](https://github.com/SimCoderYoutube/InstagramClone)  | React Native, Firebase Firestore, Firebase storage, Redux, Expo |
-| Moodle    | [Youtube](https://www.youtube.com/watch?v=JIFqqdRxmVo&t=45s)                                           | [Freecodecamp](https://www.freecodecamp.org/news/django-rest-framework-react-tutorial/)                                         | [Github](https://github.com/justdjango/teach-me-django)      | React, Django Rest Framework                                    |
-| Todoist   | [todoist-preview.png](https://raw.githubusercontent.com/karlhadwen/todoist/master/todoist-preview.png) | [Freecodecamp](https://www.freecodecamp.org/news/react-firebase-todoist-clone/)                                                 | [Github](https://github.com/karlhadwen/todoist)              | React, Firebase, React, SCSS, BEM naming methodology            |
-| Twitter   | [Youtube](https://www.youtube.com/watch?v=la-0ulfn0_M&t=8864s)                                         | [Freecodecamp](https://www.freecodecamp.org/news/create-a-cross-platform-twitter-clone-with-vue-js/)                            | [Github](https://github.com/dannyconnell/qwitter)            | Vue.js, Quasar Framework, Firebase                              |
-| WhatsApp  | [Youtube](https://www.youtube.com/watch?v=988UZFB0heA&t=5h274s)                                        | [Freecodecamp](https://www.freecodecamp.org/news/native-android-app-tutorial-whatsapp-clone/)                                   | [Github](https://github.com/SimCoderYoutube/WhatsAppClone)   | Android Studio, Firebase, Genymotion                            |
-| YouTube   | [Youtube](https://www.youtube.com/watch?v=whuIf33v2Ug&t=189s)                                          | [Freecodecamp](https://www.freecodecamp.org/news/learn-how-to-use-the-yii2-php-framework-to-create-a-youtube-clone/)            | [Github](https://github.com/thecodeholic/Yii2-Youtube-Clone) | Yii2 PHP Framework                                              |
-
----
-
 ## Contribution
 
-2 ways to add your/their repo to the list:
+Criteria: project must have at least minimal functionality, please do not submit any 'UI only' clone. Also, no more Trello, 2048 clones unless your tech-stack is different.
 
-_(Note: project must have at least minimal functionality, please do not submit any 'UI only' clone)_
+Add clone to 1st table if you can also provide tutorial link else add it to 2nd table.
 
-- Add your contribution to [readme.md](https://github.com/GorvGoyl/Clone-Wars/blob/main/README.md) (_you may use online md editor like [markdown.site](https://markdown.site/) for better table visualization_) and send me a PR! (_faster approval and your name would be added to project contributors_)
+Edit [readme.md](https://github.com/GorvGoyl/Clone-Wars/blob/main/README.md) (_you may use online md editor like [markdown.site](https://markdown.site/) for better table visualization_) and send me a PR!
 
-OR
-
-- Create a [new issue](https://github.com/GorvGoyl/Clone-Wars/issues/new) with following details: clone name, code repo link, demo link, and tech stack used.
-
-Any other feedback is also welcome :)
+Any other feedback to improve this project is welcome :)
