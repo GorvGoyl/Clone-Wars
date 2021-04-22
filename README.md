@@ -34,7 +34,7 @@ Want to see your/their repo in list? see [contribution guide](#contribution).
 
    Two kinds of projects on this list:
 
-   1. Clones: look quite similar (UI-wise) but aren't fully-functional, mostly made for learning purpose.
+   1. Clones: look quite similar (UI-wise) but aren't fully-functional, mostly made for learning purposes.
    2. Alternatives: fully-functional open-source alternatives of popular software.  
       Seeing Github stars will give you a rough idea about which one is which.
 
