@@ -2,7 +2,7 @@
 
 # Clone Wars - Open source clones of popular sites
 
-> 100+ open-source clones of popular sites like Airbnb, Amazon, Instagram, Netflix, Tiktok, Spotify, Trello, Whatsapp, Youtube, etc. List contains source code, demo links, tech stack, and GitHub stars count. Great for learning purpose!
+> 100+ open-source clones and alternatives of popular sites like Airbnb, Amazon, Instagram, Netflix, Tiktok, Spotify, Whatsapp, Youtube, etc. List contains source code, tutorials, demo links, tech stack, and GitHub stars count. Great for learning purpose!
 
 _-Made by_ <a href= "https://twitter.com/GorvGoyl" title="@GorvGoyl on twitter"> @GorvGoyl <img src="https://gourav.io/twitter.svg" style="vertical-align: middle;  width: 14px; height: 14px;" width="14" height="14" alt="@GorvGoyl on twitter"> </a>
 
@@ -18,21 +18,49 @@ _-Made by_ <a href= "https://twitter.com/GorvGoyl" title="@GorvGoyl on twitter">
   </a>
 </p>
 
-## See full list with better view 👉 [gourav.io/clone-wars](https://gourav.io/clone-wars)
+## See full tables with better view 👉 [gourav.io/clone-wars](https://gourav.io/clone-wars)
 
 ---
 
-- Want to see your/their repo in list? see [contribution guide](#contribution)
+Want to see your/their repo in list? see [contribution guide](#contribution).
 
-> Note: There are 2 kinds of projects on the list. The first ones look quite similar (UI-wise) but aren't fully-functional and the other ones which are fully-functional but UI is different.
->
-> Also, [read the story](https://gourav.io/blog/my-simple-github-project-went-viral#naming-the-project) behind project name "Clone Wars".
+### There are 2 tables:
+
+1. [Clones with Tutorials Table](#clones-with-tutorials)
+
+   Full-stack clones with link to free tutorials.
+
+2. [Clones / Alternatives Table](#clones-and-alternatives)
+
+   Two kinds of projects on this list:
+
+   1. Clones: look quite similar (UI-wise) but aren't fully-functional, mostly made for learning purposes.
+   2. Alternatives: fully-functional open-source alternatives of popular software.  
+      Seeing Github stars will give you a rough idea about which one is which.
+
+> [read the story](https://gourav.io/blog/my-simple-github-project-went-viral#naming-the-project) behind project name "Clone Wars".
+
+## Clones with Tutorials
+
+| Clone of  | Demo                                                                                                   | Tutorial / Course                                                                                                               | Repo                                                         | Tech Stack                                                      |
+| --------- | ------------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------ | --------------------------------------------------------------- |
+| Instagram | [Youtube](https://www.youtube.com/watch?v=1hPgQWbWmEk&t=5h2902s)                                       | [Freecodecamp](https://www.freecodecamp.org/news/build-an-instagram-clone-with-react-native-firebase-firestore-redux-and-expo/) | [Github](https://github.com/SimCoderYoutube/InstagramClone)  | React Native, Firebase Firestore, Firebase storage, Redux, Expo |
+| Moodle    | [Youtube](https://www.youtube.com/watch?v=JIFqqdRxmVo&t=45s)                                           | [Freecodecamp](https://www.freecodecamp.org/news/django-rest-framework-react-tutorial/)                                         | [Github](https://github.com/justdjango/teach-me-django)      | React, Django Rest Framework                                    |
+| Todoist   | [todoist-preview.png](https://raw.githubusercontent.com/karlhadwen/todoist/master/todoist-preview.png) | [Freecodecamp](https://www.freecodecamp.org/news/react-firebase-todoist-clone/)                                                 | [Github](https://github.com/karlhadwen/todoist)              | React, Firebase, React, SCSS, BEM naming methodology            |
+| Twitter   | [Youtube](https://www.youtube.com/watch?v=la-0ulfn0_M&t=8864s)                                         | [Freecodecamp](https://www.freecodecamp.org/news/create-a-cross-platform-twitter-clone-with-vue-js/)                            | [Github](https://github.com/dannyconnell/qwitter)            | Vue.js, Quasar Framework, Firebase                              |
+| WhatsApp  | [Youtube](https://www.youtube.com/watch?v=988UZFB0heA&t=5h274s)                                        | [Freecodecamp](https://www.freecodecamp.org/news/native-android-app-tutorial-whatsapp-clone/)                                   | [Github](https://github.com/SimCoderYoutube/WhatsAppClone)   | Android Studio, Firebase, Genymotion                            |
+| YouTube   | [Youtube](https://www.youtube.com/watch?v=whuIf33v2Ug&t=189s)                                          | [Freecodecamp](https://www.freecodecamp.org/news/learn-how-to-use-the-yii2-php-framework-to-create-a-youtube-clone/)            | [Github](https://github.com/thecodeholic/Yii2-Youtube-Clone) | Yii2 PHP Framework                                              |
+
+---
+
+## Clones and Alternatives
 
 _(scroll right on table to see all 5 columns)_
 
 | Clone of                       | Demo                                                                                                                   | Repo                                                                                                                   | Tech stack                                             | Repo Stars                                                                                                                                                                                     |
 | ------------------------------ | ---------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------ | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | 1Password / LastPass           | https://bitwarden.com/                                                                                                 | https://github.com/bitwarden/mobile                                                                                    | C#, Xamarin                                            | ![GitHub Repo stars](https://img.shields.io/github/stars/bitwarden/mobile)                                                                                                                     |
+| 2048                           | https://gh.artemchep.com/2048/#/                                                                                       | https://github.com/AChep/2048                                                                                          | Dart, Flutter                                          | ![GitHub Repo stars](https://img.shields.io/github/stars/AChep/2048)                                                                                                                           |
 | 2048                           | https://2048-three.vercel.app/                                                                                         | https://github.com/AreebKhan619/2048                                                                                   | React                                                  | ![GitHub Repo stars](https://img.shields.io/github/stars/AreebKhan619/2048)                                                                                                                    |
 | 2048                           | https://demo.matsz.dev/2048/                                                                                           | https://github.com/mat-sz/2048                                                                                         | React, TypeScript, Redux                               | ![GitHub Repo stars](https://img.shields.io/github/stars/mat-sz/2048)                                                                                                                          |
 | 2048                           | https://guaracy.github.io/beads/sites/2048/2048.html                                                                   | https://github.com/guaracy/2048-beads                                                                                  | Beads                                                  | ![GitHub Repo stars](https://img.shields.io/github/stars/guaracy/2048-beads)                                                                                                                   |
@@ -89,7 +117,7 @@ _(scroll right on table to see all 5 columns)_
 | iOS Homescreen                 | https://ios-homescreen.now.sh/                                                                                         | https://github.com/erickbogarin/ios-homescreen                                                                         | React, Next.js, Emotion                                | ![GitHub Repo stars](https://img.shields.io/github/stars/erickbogarin/ios-homescreen)                                                                                                          |
 | Jira                           | https://i.ibb.co/W3qVvCn/jira-optimized.jpg                                                                            | https://github.com/oldboyxx/jira_clone                                                                                 | React, Typescript                                      | ![GitHub Repo stars](https://img.shields.io/github/stars/oldboyxx/jira_clone)                                                                                                                  |
 | Jira                           | https://jira.trungk18.com/                                                                                             | https://github.com/trungk18/jira-clone-angular                                                                         | Angular, Akita, TailwindCSS, ng-zorro                  | ![GitHub Repo stars](https://img.shields.io/github/stars/trungk18/jira-clone-angular)                                                                                                          |
-| Keycloak                         | https://www.ory.sh/docs/ecosystem/projects/                                                                          | https://github.com/ory                                                                   | Go                                | ![GitHub Repo stars](https://img.shields.io/github/stars/ory)                                                                                                    |
+| Keycloak                       | https://www.ory.sh/docs/ecosystem/projects/                                                                            | https://github.com/ory                                                                                                 | Go                                                     | ![GitHub Repo stars](https://img.shields.io/github/stars/ory)                                                                                                    |
 | LaunchDarkly                   | https://flagsmith.com                                                                                                  | https://github.com/flagsmith/flagsmith-api, https://github.com/flagsmith/flagsmith-frontend                            | Python, Django, React                                  | ![GitHub Repo stars](https://img.shields.io/github/stars/flagsmith/flagsmith-api)                                                                                                              |
 | Linear.app                     | https://www.youtube.com/watch?v=XVAek-hE5X8                                                                            | https://github.com/tuan3w/linearapp_clone                                                                              | React, Redux, TailwindCSS                              | ![GitHub Repo stars](https://img.shields.io/github/stars/tuan3w/linearapp_clone)                                                                                                               |
 | MacOS Calculator               | https://chamoda.com/react-calculator/                                                                                  | https://github.com/chamoda/react-calculator                                                                            | React                                                  | ![GitHub Repo stars](https://img.shields.io/github/stars/chamoda/react-calculator)                                                                                                             |
@@ -105,7 +133,8 @@ _(scroll right on table to see all 5 columns)_
 | Netflix                        | https://roseflix-rosebilag.vercel.app/                                                                                 | https://github.com/rosebilag/roseflix/                                                                                 | React, TypeScript, MongoDB                             | ![GitHub Repo stars](https://img.shields.io/github/stars/rosebilag/roseflix)                                                                                                                   |
 | Nike                           | https://github.com/saeed9321/Nike-Website-clone/blob/main/screen-capture.gif                                           | https://github.com/saeed9321/Nike-Website-clone                                                                        | Express, MongoDB                                       | ![GitHub Repo stars](https://img.shields.io/github/stars/saeed9321/Nike-Website-clone)                                                                                                         |
 | Notion                         | https://www.focalboard.com/                                                                                            | https://github.com/mattermost/focalboard                                                                               | Node, React, Go                                        | ![GitHub Repo stars](https://img.shields.io/github/stars/mattermost/focalboard)                                                                                                                |
-| Okta                         | https://www.ory.sh/docs/ecosystem/projects/                                                                          | https://github.com/ory                                                                   | Go                                | ![GitHub Repo stars](https://img.shields.io/github/stars/ory)                                                                                                    |
+| Okta                           | https://www.ory.sh/docs/ecosystem/projects/                                                                            | https://github.com/ory                                                                                                 | Go                                                     | ![GitHub Repo stars](https://img.shields.io/github/stars/ory)                                                                                                    |
+| Obsidian                       | https://www.zettlr.com/                                                                                                | https://github.com/Zettlr/Zettlr                                                                                       | Electron, Vue, Markdown                                | ![GitHub Repo stars](https://img.shields.io/github/stars/Zettlr/Zettlr)                                                                                                                        |
 | Omegle                         | https://start-a-conversation.firebaseapp.com/                                                                          | https://github.com/NickMandylas/start-a-conversation                                                                   | React, Firebase, Twilio                                | ![GitHub Repo stars](https://img.shields.io/github/stars/NickMandylas/start-a-conversation)                                                                                                    |
 | Orkut                          | https://orkutnostalgia.netlify.app/                                                                                    | https://github.com/GShadowBroker/orkut-clone-client <br/> https://github.com/GShadowBroker/orkut-clone-server          | ReactJS, GraphQL, Apollo, PostgreSQL                   | ![GitHub Repo stars](https://img.shields.io/github/stars/GShadowBroker/orkut-clone-client) ![GitHub Repo stars](https://img.shields.io/github/stars/GShadowBroker/orkut-clone-server)          |
 | PayTM                          | https://github.com/flutter-devs/flutter_paytm_clone#demo                                                               | https://github.com/flutter-devs/flutter_paytm_clone                                                                    | Flutter                                                | ![GitHub Repo stars](https://img.shields.io/github/stars/flutter-devs/flutter_paytm_clone)                                                                                                     |
@@ -184,14 +213,14 @@ _Some link is broken or clone is not good enough? [report it](https://github.com
 
 ## Contribution
 
-2 ways to add your/their repo to the list:
+Criteria:
 
-_(Note: project must have at least minimal functionality, please do not submit any 'UI only' clone)_
+- It should be a clone/alternative of some popular software or app.
+- Project must have at least minimal functionality, please do not submit any 'UI only' clone.
+- Also, no more Trello, 2048 clones unless your tech-stack is different.
 
-- Add your contribution to [readme.md](https://github.com/GorvGoyl/Clone-Wars/blob/main/README.md) (_you may use online md editor like [markdown.site](https://markdown.site/) for better table visualization_) and send me a PR! (_faster approval and your name would be added to project contributors_)
+Add clone to 1st table if you can also provide tutorial link else add it to 2nd table. Maintain alphabetical order while adding.
 
-OR
+Edit [readme.md](https://github.com/GorvGoyl/Clone-Wars/blob/main/README.md) (_you may use online md editor like [markdown.site](https://markdown.site/) for better table visualization_) and send me a PR! Make sure there are no merge conflicts.
 
-- Create a [new issue](https://github.com/GorvGoyl/Clone-Wars/issues/new) with following details: clone name, code repo link, demo link, and tech stack used.
-
-Any other feedback is also welcome :)
+Any other [feedback](https://github.com/GorvGoyl/Clone-Wars/issues/new) to improve this project is welcome :)
