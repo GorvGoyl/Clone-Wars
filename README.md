@@ -33,7 +33,7 @@ _(scroll right on table to see all 5 columns)_
 | Clone of                       | Demo                                                                                                                   | Repo                                                                                                                   | Tech stack                                             | Repo Stars                                                                                                                                                                                     |
 | ------------------------------ | ---------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------ | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | 1Password / LastPass           | https://bitwarden.com/                                                                                                 | https://github.com/bitwarden/mobile                                                                                    | C#, Xamarin                                            | ![GitHub Repo stars](https://img.shields.io/github/stars/bitwarden/mobile)                                                                                                                     |
-| 2048                           | https://gh.artemchep.com/2048/#/                                                                                         | https://github.com/AChep/2048                                                                                   | Dart, Flutter                                                  | ![GitHub Repo stars](https://img.shields.io/github/stars/AChep/2048)                                                                                                                    |
+| 2048                           | https://gh.artemchep.com/2048/#/                                                                                       | https://github.com/AChep/2048                                                                                          | Dart, Flutter                                          | ![GitHub Repo stars](https://img.shields.io/github/stars/AChep/2048)                                                                                                                           |
 | 2048                           | https://2048-three.vercel.app/                                                                                         | https://github.com/AreebKhan619/2048                                                                                   | React                                                  | ![GitHub Repo stars](https://img.shields.io/github/stars/AreebKhan619/2048)                                                                                                                    |
 | 2048                           | https://demo.matsz.dev/2048/                                                                                           | https://github.com/mat-sz/2048                                                                                         | React, TypeScript, Redux                               | ![GitHub Repo stars](https://img.shields.io/github/stars/mat-sz/2048)                                                                                                                          |
 | 2048                           | https://guaracy.github.io/beads/sites/2048/2048.html                                                                   | https://github.com/guaracy/2048-beads                                                                                  | Beads                                                  | ![GitHub Repo stars](https://img.shields.io/github/stars/guaracy/2048-beads)                                                                                                                   |
@@ -105,7 +105,7 @@ _(scroll right on table to see all 5 columns)_
 | Netflix                        | https://roseflix-rosebilag.vercel.app/                                                                                 | https://github.com/rosebilag/roseflix/                                                                                 | React, TypeScript, MongoDB                             | ![GitHub Repo stars](https://img.shields.io/github/stars/rosebilag/roseflix)                                                                                                                   |
 | Nike                           | https://github.com/saeed9321/Nike-Website-clone/blob/main/screen-capture.gif                                           | https://github.com/saeed9321/Nike-Website-clone                                                                        | Express, MongoDB                                       | ![GitHub Repo stars](https://img.shields.io/github/stars/saeed9321/Nike-Website-clone)                                                                                                         |
 | Notion                         | https://www.focalboard.com/                                                                                            | https://github.com/mattermost/focalboard                                                                               | Node, React, Go                                        | ![GitHub Repo stars](https://img.shields.io/github/stars/mattermost/focalboard)                                                                                                                |
-| Obsidian                       | https://www.zettlr.com/                                                                                                | https://github.com/Zettlr/Zettlr                                                                                       | Electron, Vue, Markdown                               | ![GitHub Repo stars](https://img.shields.io/github/stars/Zettlr/Zettlr)                                                                                                    |
+| Obsidian                       | https://www.zettlr.com/                                                                                                | https://github.com/Zettlr/Zettlr                                                                                       | Electron, Vue, Markdown                                | ![GitHub Repo stars](https://img.shields.io/github/stars/Zettlr/Zettlr)                                                                                                                        |
 | Omegle                         | https://start-a-conversation.firebaseapp.com/                                                                          | https://github.com/NickMandylas/start-a-conversation                                                                   | React, Firebase, Twilio                                | ![GitHub Repo stars](https://img.shields.io/github/stars/NickMandylas/start-a-conversation)                                                                                                    |
 | Orkut                          | https://orkutnostalgia.netlify.app/                                                                                    | https://github.com/GShadowBroker/orkut-clone-client <br/> https://github.com/GShadowBroker/orkut-clone-server          | ReactJS, GraphQL, Apollo, PostgreSQL                   | ![GitHub Repo stars](https://img.shields.io/github/stars/GShadowBroker/orkut-clone-client) ![GitHub Repo stars](https://img.shields.io/github/stars/GShadowBroker/orkut-clone-server)          |
 | PayTM                          | https://github.com/flutter-devs/flutter_paytm_clone#demo                                                               | https://github.com/flutter-devs/flutter_paytm_clone                                                                    | Flutter                                                | ![GitHub Repo stars](https://img.shields.io/github/stars/flutter-devs/flutter_paytm_clone)                                                                                                     |
@@ -184,61 +184,14 @@ _Some link is broken or clone is not good enough? [report it](https://github.com
 
 ## Clones with Tutorials
 
-<table>
-    <thead>
-        <tr>
-            <th>Clone of</th>
-            <th>Demo</th>
-            <th>Tutorial/Article/Course</th>
-            <th>Repo</th>
-            <th>Tech Stack</th>
-        </tr>
-    </thead>
-    <tbody>
-	    <tr>
-            <td>WhatsApp</td>
-            <td><a href="https://www.youtube.com/watch?v=988UZFB0heA&t=5h274s" >Demo Link</a></td>
-            <td><a href="https://www.freecodecamp.org/news/native-android-app-tutorial-whatsapp-clone/">Link</a></td>
-            <td><a href="https://github.com/SimCoderYoutube/WhatsAppClone">Repo Link</a></td>
-            <td>Android Studio, Firebase, Genymotion</td>
-        </tr>
-        <tr>
-            <td>Instagram</td>
-            <td><a href="https://www.youtube.com/watch?v=1hPgQWbWmEk&t=5h2902s" >Demo Link</a></td>
-            <td><a href="https://www.freecodecamp.org/news/build-an-instagram-clone-with-react-native-firebase-firestore-redux-and-expo/">Link</a></td>
-            <td><a href="https://github.com/SimCoderYoutube/InstagramClone">Repo Link</a></td>
-            <td>React Native, Firebase Firestore, Firebase storage, Redux, Expo</td>
-        </tr>
-        <tr>
-            <td>YouTube</td>
-            <td><a href="https://www.youtube.com/watch?v=whuIf33v2Ug&t=189s" >Demo Link</a></td>
-            <td><a href="https://www.freecodecamp.org/news/learn-how-to-use-the-yii2-php-framework-to-create-a-youtube-clone/">Link</a></td>
-            <td><a href="https://github.com/thecodeholic/Yii2-Youtube-Clone">Repo Link</a></td>
-            <td>Yii2 PHP Framework</td>
-        </tr>
-        <tr>
-            <td>Twitter</td>
-            <td><a href="https://www.youtube.com/watch?v=la-0ulfn0_M&t=8864s" >Demo Link</a></td>
-            <td><a href="https://www.freecodecamp.org/news/create-a-cross-platform-twitter-clone-with-vue-js/">Link</a></td>
-            <td><a href="https://github.com/dannyconnell/qwitter">Repo Link</a></td>
-            <td>Vue.js, Quasar Framework, Firebase</td>
-        </tr>
-        <tr>
-            <td>Todoist</td>
-            <td><a href="https://raw.githubusercontent.com/karlhadwen/todoist/master/todoist-preview.png" >Demo Link</a></td>
-            <td><a href="https://www.freecodecamp.org/news/react-firebase-todoist-clone/">Link</a></td>
-            <td><a href="https://github.com/karlhadwen/todoist">Repo Link</a></td>
-            <td>React, Firebase, React, SCSS, BEM naming methodology</td>
-        </tr>
-        <tr>
-            <td>Moodle</td>
-            <td><a href="https://www.youtube.com/watch?v=JIFqqdRxmVo&t=45s" >Demo Link</a></td>
-            <td><a href="https://www.freecodecamp.org/news/django-rest-framework-react-tutorial/">Link</a></td>
-            <td><a href="https://github.com/justdjango/teach-me-django">Repo Link</a></td>
-            <td>React, Django Rest Framework</td>
-        </tr>
-    </tbody>
-</table>
+| Clone of  | Demo                                                                                                   | Tutorial / Course                                                                                                       | Repo                                                         | Tech Stack                                                      |
+| --------- | ------------------------------------------------------------------------------------------------------ | ----------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------ | --------------------------------------------------------------- |
+| Instagram | [Youtube](https://www.youtube.com/watch?v=1hPgQWbWmEk&t=5h2902s)                                       | [Link](https://www.freecodecamp.org/news/build-an-instagram-clone-with-react-native-firebase-firestore-redux-and-expo/) | [Github](https://github.com/SimCoderYoutube/InstagramClone)  | React Native, Firebase Firestore, Firebase storage, Redux, Expo |
+| Moodle    | [Youtube](https://www.youtube.com/watch?v=JIFqqdRxmVo&t=45s)                                           | [Link](https://www.freecodecamp.org/news/django-rest-framework-react-tutorial/)                                         | [Github](https://github.com/justdjango/teach-me-django)      | React, Django Rest Framework                                    |
+| Todoist   | [todoist-preview.png](https://raw.githubusercontent.com/karlhadwen/todoist/master/todoist-preview.png) | [Link](https://www.freecodecamp.org/news/react-firebase-todoist-clone/)                                                 | [Github](https://github.com/karlhadwen/todoist)              | React, Firebase, React, SCSS, BEM naming methodology            |
+| Twitter   | [Youtube](https://www.youtube.com/watch?v=la-0ulfn0_M&t=8864s)                                         | [Link](https://www.freecodecamp.org/news/create-a-cross-platform-twitter-clone-with-vue-js/)                            | [Github](https://github.com/dannyconnell/qwitter)            | Vue.js, Quasar Framework, Firebase                              |
+| WhatsApp  | [Youtube](https://www.youtube.com/watch?v=988UZFB0heA&t=5h274s)                                        | [Link](https://www.freecodecamp.org/news/native-android-app-tutorial-whatsapp-clone/)                                   | [Github](https://github.com/SimCoderYoutube/WhatsAppClone)   | Android Studio, Firebase, Genymotion                            |
+| YouTube   | [Youtube](https://www.youtube.com/watch?v=whuIf33v2Ug&t=189s)                                          | [Link](https://www.freecodecamp.org/news/learn-how-to-use-the-yii2-php-framework-to-create-a-youtube-clone/)            | [Github](https://github.com/thecodeholic/Yii2-Youtube-Clone) | Yii2 PHP Framework                                              |
 
 ---
 
