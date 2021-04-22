@@ -211,7 +211,11 @@ _Some link is broken or clone is not good enough? [report it](https://github.com
 
 ## Contribution
 
-Criteria: project must have at least minimal functionality, please do not submit any 'UI only' clone. Also, no more Trello, 2048 clones unless your tech-stack is different.
+Criteria:
+
+- It should be a clone/alternative of some popular software or app.
+- Project must have at least minimal functionality, please do not submit any 'UI only' clone.
+- Also, no more Trello, 2048 clones unless your tech-stack is different.
 
 Add clone to 1st table if you can also provide tutorial link else add it to 2nd table.
 
