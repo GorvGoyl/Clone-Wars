@@ -223,14 +223,14 @@ _Some link is broken or clone is not good enough? [report it](https://github.com
         </tr>
         <tr>
             <td>Todoist</td>
-            <td><a href="https://www.youtube.com/watch?v=hT3j87FMR6M&ab_channel=freeCodeCamp.org&t=147s" >Demo Link</a></td>
+            <td><a href="https://raw.githubusercontent.com/karlhadwen/todoist/master/todoist-preview.png" >Demo Link</a></td>
             <td><a href="https://www.freecodecamp.org/news/react-firebase-todoist-clone/">Link</a></td>
             <td><a href="https://github.com/karlhadwen/todoist">Repo Link</a></td>
             <td>React, Firebase, React, SCSS, BEM naming methodology</td>
         </tr>
         <tr>
             <td>Moodle</td>
-            <td><a href="https://github.com/dimi-fn/Clone-Wars/blob/main/img/moodle_tutorial_demo.PNG" >Demo Link</a></td>
+            <td><a href="https://www.youtube.com/watch?v=JIFqqdRxmVo&ab_channel=freeCodeCamp.org&t=45s" >Demo Link</a></td>
             <td><a href="https://www.freecodecamp.org/news/django-rest-framework-react-tutorial/">Link</a></td>
             <td><a href="https://github.com/justdjango/teach-me-django">Repo Link</a></td>
             <td>React, Django Rest Framework</td>
