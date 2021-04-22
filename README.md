@@ -217,7 +217,7 @@ Criteria:
 - Project must have at least minimal functionality, please do not submit any 'UI only' clone.
 - Also, no more Trello, 2048 clones unless your tech-stack is different.
 
-Add clone to 1st table if you can also provide tutorial link else add it to 2nd table.
+Add clone to 1st table if you can also provide tutorial link else add it to 2nd table. Maintain alphabetical order while adding.
 
 Edit [readme.md](https://github.com/GorvGoyl/Clone-Wars/blob/main/README.md) (_you may use online md editor like [markdown.site](https://markdown.site/) for better table visualization_) and send me a PR! Make sure there are no merge conflicts.
 
