@@ -1,0 +1,9 @@
+'# $ *. '
+'theme: jekyll-theme-leap-day
+
+'themes:
+  - 'jekyll-relative-links
+  - 'jekyll-github-metadata
+'relative_links:
+  enabled: 'true
+  collections: 'true
