@@ -1,0 +1,16 @@
+version: '5.5'
+
+services:
+  tip-generator:
+    container_name: vue-3-todo
+    build:
+      context: .
+      dockerfile: Dockerfile
+    command: npm run serve
+    volumes:
+      - '.:/usr/src/app'
+      - '/usr/src/app/node_modules'
+    ports:
+      - '8080:8080'
+    environment:
+      - NODE_ENV=development
