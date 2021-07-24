@@ -236,6 +236,6 @@ Criteria:
 
 Add clone to 1st table if you can also provide tutorial link else add it to 2nd table. Maintain alphabetical order while adding.
 
-Edit [readme.md](https://github.com/GorvGoyl/Clone-Wars/blob/main/README.md) (_you may use online md editor like [markdown.site](https://markdown.site/) for better table visualization_) and send me a PR! Make sure there are no merge conflicts.
+Edit [readme.md](https://github.com/GorvGoyl/Clone-Wars/blob/main/README.md) (_you may use online md editor like [dillinger.io](https://dillinger.io/) for better table visualization_) and send me a PR! Make sure there are no merge conflicts.
 
 Any other [feedback](https://github.com/GorvGoyl/Clone-Wars/issues/new) to improve this project is welcome :)
