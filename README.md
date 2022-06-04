@@ -4,19 +4,7 @@
 
 > 100+ open-source clones and alternatives of popular sites like Airbnb, Amazon, Instagram, Netflix, TikTok, Spotify, WhatsApp, YouTube, etc. List contains source code, tutorials, demo links, tech stack, and GitHub stars count. Great for learning purpose!
 
-_-Made by_ <a href= "https://twitter.com/GorvGoyl" title="@GorvGoyl on twitter"> @GorvGoyl <img src="https://gourav.io/twitter.svg" style="vertical-align: middle;  width: 14px; height: 14px;" width="14" height="14" alt="@GorvGoyl on twitter"> </a>
-
-<p align="center">
-  <a href="https://twitter.com/GorvGoyl">
-  <img src="https://img.shields.io/badge/@GorvGoyl-1da1f2?style=for-the-badge&labelColor=1da1f2&color=1da1f2&logo=twitter&logoColor=white&label=Follow" alt="Follow on Twitter"/>
-  </a>
-</p>
-
-<p align="center">
-  <a href="https://ko-fi.com/gorvgoyl">
-  <img src="https://github.com/GorvGoyl/Notion-Boost-browser-extension/raw/master/src/images/readme/bmc.png" width="200" alt="Buy me a Coffee"/>
-  </a>
-</p>
+_-Made by <a href= "https://gourav.io" title="Gourav Goyal"> Gourav Goyal </a>_
 
 ## See full tables with better view 👉 [gourav.io/clone-wars](https://gourav.io/clone-wars)
 
