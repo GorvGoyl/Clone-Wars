@@ -12,6 +12,8 @@ _-Made by <a href= "https://gourav.io" title="Gourav Goyal"> Gourav Goyal </a>_
 
 I need your help to maintain this list up to date 🙏. See [contribution Guide](#contribution-guide).
 
+[I'm also looking for a maintainer to merge PRs of new clones](https://github.com/GorvGoyl/Clone-Wars/issues/209).
+
 ### There are 2 tables:
 
 1. [Clones with Tutorials Table](#clones-with-tutorials)
