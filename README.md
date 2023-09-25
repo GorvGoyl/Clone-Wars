@@ -228,7 +228,6 @@ _(scroll right on table to see all 5 columns)_
 | Zapier                         | [n8n.io](https://n8n.io/)                                                                                                                                              | [GitHub](https://github.com/n8n-io/n8n)                                                                                                    | TypeScript, Vue, Docker                                                        | ![GitHub Repo stars](https://img.shields.io/github/stars/n8n-io/n8n)                                                                                                                           |
 | Zapier                         | [vimeo.com (gif)](https://vimeo.com/61976251)                                                                                                                          | [GitHub](https://github.com/huginn/huginn)                                                                                                 | Ruby                                                                           | ![GitHub Repo stars](https://img.shields.io/github/stars/huginn/huginn)   
 
-|
 
 _Some link is broken or clone is not good enough? [report it](https://github.com/GorvGoyl/Clone-Wars/issues/new)_
 
