@@ -16,17 +16,14 @@ I need your help to maintain this list up to date 🙏. See [contribution Guide]
 
 ### There are 2 tables:
 
-1. [Clones with Tutorials Table](#clones-with-tutorials)
-
-   Full-stack clones with link to free tutorials.
-
-2. [Clones / Alternatives Table](#clones-and-alternatives)
-
-   Two kinds of projects on this list:
-
-   1. Clones: look quite similar (UI-wise) but aren't fully-functional, mostly made for learning purposes.
-   2. Alternatives: fully-functional open-source alternatives of popular software.
-      Seeing GitHub stars will give you a rough idea about which one is which.
+- [Clone Wars - Open source clones of popular sites](#clone-wars---open-source-clones-of-popular-sites)
+  - [See full tables with better view 👉 gourav.io/clone-wars](#see-full-tables-with-better-view--gouravioclone-wars)
+    - [There are 2 tables:](#there-are-2-tables)
+  - [Clones with Tutorials](#clones-with-tutorials)
+  - [Clones and Alternatives](#clones-and-alternatives)
+  - [Contribution Guide](#contribution-guide)
+    - [Fixing an invalid clone:](#fixing-an-invalid-clone)
+    - [Adding new clone:](#adding-new-clone)
 
 > Read the story behind this project: [My simple GitHub project went viral 🚀](https://gourav.io/blog/my-simple-github-project-went-viral)
 
@@ -229,6 +226,7 @@ _(scroll right on table to see all 5 columns)_
 | Twitter                        | [twitterapp-clone.netlify.app](https://twitterapp-clone.netlify.app/home)                                                                                              | [GitHub](https://github.com/Ali-hd/Twitter-Clone) <br/> [GitHub](https://github.com/Ali-hd/TwitterClone-Backend)                           | React, express, mongo, aws, socket.io                                          | ![GitHub Repo stars](https://img.shields.io/github/stars/Ali-hd/Twitter-Clone) ![GitHub Repo stars](https://img.shields.io/github/stars/Ali-hd/TwitterClone-Backend)                           |
 | Twitter                        | [twitter-cln.herokuapp](https://twitter-cln.herokuapp.com)                                                                                                             | [GitHub](https://github.com/Abdullah-V/MEVN-stack-twitter-clone)                                                                           | Vue, Express, Mongo                                                            | ![GitHub Repo stars](https://img.shields.io/github/stars/Abdullah-V/MEVN-stack-twitter-clone)                                                                                                  |
 | Twitter                        | [twitter-web-clone-react.vercel](https://twitter-web-clone-react.vercel.app)                                                                                           | [GitHub](https://github.com/mucahit-sahin/twitter-web-clone-react)                                                                         | React, Redux                                                                   | ![GitHub Repo stars](https://img.shields.io/github/stars/mucahit-sahin/twitter-web-clone-react)                                                                                                |
+| Mastodon                           | [echoloop.buzz](https://echoloop.buzz/app/)                                                                                                  | [GitHub](https://github.com/zerone0x/Echo-Frontend.git)                                                                                     | Node.js, Next.Js, Express.Js, TypeScript, TailwindCSS                                                         | ![GitHub Repo stars](https://img.shields.io/github/stars/zerone0x/Echo-Frontend)                                                                                                                    |                                                                                                            |
 | Typeform         | [Formbricks](https://formbricks.com/)                                                                                                                                  | [GitHub](https://github.com/formbricks/formbricks)                                                                                             | JavaScript                                                                         | ![GitHub Repo stars](https://img.shields.io/github/stars/formbricks/formbricks)                                                                                                                    |
 | Typeform / Google Form         | [ohmyform.com](https://ohmyform.com/)                                                                                                                                  | [GitHub](https://github.com/ohmyform/ohmyform)                                                                                             | Python                                                                         | ![GitHub Repo stars](https://img.shields.io/github/stars/ohmyform/ohmyform)                                                                                                                    |
 | Typeform                       | [supereasyforms.com](https://supereasyforms.com/)                                                                                                                      | [GitHub](https://github.com/super-easy-forms/super-easy-forms)                                                                             | JavaScript                                                                     | ![GitHub Repo stars](https://img.shields.io/github/stars/super-easy-forms/super-easy-forms)                                                                                                    |
