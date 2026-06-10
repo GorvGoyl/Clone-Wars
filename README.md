@@ -6,6 +6,17 @@
 
 _-Made by <a href= "https://gourav.io" title="Gourav Goyal"> Gourav Goyal </a>_
 
+
+## Table of Contents
+
+- [See full tables with better view 👉 gourav.io/clone-wars(https://gourav.io/clone-wars)](#see-full-tables-with-better-view-gouravioclone-warshttpsgouravioclone-wars)
+  - [There are 2 tables:](#there-are-2-tables)
+- [Clones with Tutorials](#clones-with-tutorials)
+- [Clones and Alternatives](#clones-and-alternatives)
+- [Contribution Guide](#contribution-guide)
+  - [Fixing an invalid clone:](#fixing-an-invalid-clone)
+  - [Adding new clone:](#adding-new-clone)
+
 ## See full tables with better view 👉 [gourav.io/clone-wars](https://gourav.io/clone-wars)
 
 ---
